@@ -13,17 +13,22 @@
     <link rel="stylesheet" href="static/css/scrollBar.css" />
     <link rel="stylesheet" href="static/css/style.css" />
     <link rel="icon" type="image/x-icon" href="static/img/iconlogo.png" />
+
+    <script src="static/js/footer.js" defer></script>
     <title>WEBNAServer Pi rack</title>
   </head>
   <body>
-    <header><h1>WEBNAServer Pi rack</h1></header>
+    <header class="title"><h1>WEBNAServer Pi rack</h1></header>
     <main>
-      <img
-        src="static/img/raspPiRacp.png"
-        class="product"
-        alt="WEBNAServer Pi rack"
-      />
-      <div class="board">
+      <div class="image-container">
+        <img
+          src="static/img/raspPiRacp.png"
+          class="product"
+          alt="WEBNAServer Pi rack"
+        />
+      </div>
+      <img src="static/img/model.jpg" class="model" alt="model of case" />
+      <div class="board" id="first-board">
         <h6 class="tittleB">Components</h6>
         <p>
           The heart of the tech project lies in the powerful Raspberry Pi 4 Type
@@ -46,7 +51,7 @@
         </p>
       </div>
       <div class="board">
-        <h6 class="tittleB">Used Softwares</h6>
+        <h6 class="tittleB">Used Software</h6>
         <p>
           A robust online presence requires meticulous setup and configuration.
           Achieving this involves setting up a public IP address through my home
@@ -88,8 +93,79 @@
           project.
         </p>
       </div>
+      <div class="video">
+        <video
+          width="35%"
+          height="auto"
+          controls
+          controlsList="nodownload"
+          muted
+        >
+          <source src="static/vid/video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </main>
     <aside></aside>
-    <footer></footer>
+    <footer class="footer">
+      <div>
+        <p class="aboutme">
+          I am at 4th-year student at the Secondary Technical School of
+          Electrical Engineering (SPŠE) Ječná, specializing in Information
+          Technology. I am interested in positions in the IT field as a
+          programmer or IT technician. I am reliable and capable of teamwork,
+          patient, goal-oriented, and open to learning with new technologies. I
+          plan to study at the Czech Technical University (ČVUT) and work
+          part-time during my studies or work as a temporary worker. In my free
+          time, I engage in 3D modeling using Rhinoceros software and am
+          familiar with basic operation of 3D printers. In terms of sports, I
+          prefer running, cycling, and strength training. I am a student of the
+          II. cycle of the Conservatory of Music, playing the trombone, and I am
+          a member of a brass band.
+        </p>
+      </div>
+      <div class="full-right-footer">
+        <div class="footer-left">
+          <img
+            src="static/img/profile.jpeg"
+            alt="Profile Picture"
+            class="profile-picture"
+          />
+        </div>
+        <div class="footer-right">
+          <h1 class="name">jiří syrovátko</h1>
+          <ul class="social-links">
+            <li class="mail"><a>Mail</a></li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/ji%C5%99%C3%AD-syrov%C3%A1tko-68409b29a/"
+                target="_blank"
+                ><i class="fa fa-linkedin"></i>linkedin</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/JirkS" target="_blank"
+                ><i class="fa fa-github"></i>github</a
+              >
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><i class="fa fa-instagram"></i>instagram</a
+              >
+            </li>
+            <li>
+              <a href="https://www.facebook.com/jirka.syrovatko" target="_blank"
+                ><i class="fa fa-facebook"></i>facebook</a
+              >
+            </li>
+            <li>
+              <a href="https://www.spsejecna.cz/" target="_blank"
+                ><i class="fa fa-spsejecna"></i>spse jecna</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
